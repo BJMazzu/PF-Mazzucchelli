@@ -1,0 +1,170 @@
+header{
+    background-color: #0f0f11;
+    height: 75px;
+}
+
+.navbar-brand:hover {
+    filter: drop-shadow( 0px 0px 7px #ffffff93);
+    transform: scale(1.1);
+  }
+
+article{
+    background-color: crimson;
+    height: 500px;
+}
+
+footer{
+    background-color: #0f0f11;
+}
+
+.blanco{
+    color: white;
+}
+
+body{
+    background-color: #141416;
+}
+
+body nav{
+    background-color: #0f0f11;
+}
+
+body nav a img{
+    height: 50px;
+    padding: 5px;
+}
+
+.jumbotron{
+    background-image: url(multimedia/fondo.gif);
+    background-position: center;
+    background-size: 100%;
+    height: 50vh;
+}
+
+div div article{
+    background: #868686;
+}
+
+#xd{
+    padding: 30px;
+
+}
+
+.gris{
+    filter: grayscale(100%);
+}
+
+#tw:hover{
+    filter: drop-shadow( 0px 0px 10px #00add8);
+    fill: #00add8 !important;
+}
+
+#twitch:hover{
+    filter: drop-shadow( 0px 0px 9px #7d33dd);
+    fill: #7d33dd !important;
+}
+
+#ig:hover{
+    filter: drop-shadow( 0px 0px 8px #ffa69a);
+    fill: #f38cc5 !important;
+}
+
+#beha:hover{
+    filter: drop-shadow( 0px 0px 10px #013bfd);
+    fill: #0056d8 !important;
+}
+
+.carousel{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0f0f11;
+}
+
+.separador {
+    color: #bf9d6d;
+    font-style: italic;
+    font-family: ppeiko2;
+}
+
+.dylan{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+
+#start{
+    font-size: 20px;
+    font-style: italic;
+    font-family:ppeiko;
+}
+
+#start h2{
+    color: white;
+    font-size: 80px;
+
+}
+
+#contactForm{
+    background-color:#1f1f2265  !important;
+    border-radius: 5%;
+    padding: 40px;
+}
+
+.red{
+    margin-top: 100px;
+    background-color:#1f1f2265;
+    border-radius: 8px;
+    height: 275px;
+}
+
+.ruido{
+    background-image: url(multimedia/fondoruido.png);
+}
+
+.question{
+    padding: 15px;
+}
+
+.question h3{
+    font-size: 40px;
+    font-family: ppeiko;
+    font-style: italic;
+}
+
+.question p{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.question a{
+    background-color: #868686;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.accordion{
+    padding: 50px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .secciones {
+      flex-direction: column; } }
+  
+  @media screen and (max-width: 600px) {
+    .secciones {
+      margin: 50px 0;
+      padding: 0; }
+      .secciones div .imagen {
+        width: 300px; }
+      .secciones .texto {
+        width: 300px;
+        padding: 0; } 
+    .carousel   {
+        padding: 0; }
+    }
