@@ -460,23 +460,35 @@ body {
     .secciones {
       margin: 50px 0;
       padding: 0; }
-      .secciones div .imagen {
+    .secciones div .imagen {
         width: 300px; }
-      .secciones .texto {
+    .secciones .texto {
         width: 300px;
         padding: 0; } 
 
-      h2 {
+    h2 {
         font-size: 24px;  }  
-      .navbar {
+    .navbar {
         padding: 10px; }
-      .presentacion {
+    .presentacion {
         text-align: center; }
-      #foto img {
+    #foto img {
         max-width: 100%;
         height: auto; }
-      .explicacion {
+    .explicacion {
         text-align: justify; }
       footer {
         margin-top: 20px; }
-      }
+    .orden {
+        font-size: 10px; }
+    #bjm {
+        font-size:40px; }
+    #ps,#ai {
+        height: 100px;
+        width: 100px; }
+    #programas #espacio img {
+        height: 50px;
+        width: 50px; }
+    #programas #espacio p {
+        font-size: 15px;  }
+    }

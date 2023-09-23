@@ -459,4 +459,21 @@ body {
   footer {
     margin-top: 20px;
   }
+  .orden {
+    font-size: 10px;
+  }
+  #bjm {
+    font-size: 40px;
+  }
+  #ps, #ai {
+    height: 100px;
+    width: 100px;
+  }
+  #programas #espacio img {
+    height: 50px;
+    width: 50px;
+  }
+  #programas #espacio p {
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=diseño.css.map */
